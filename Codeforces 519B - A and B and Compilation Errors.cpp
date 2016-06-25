@@ -1,5 +1,4 @@
-// Codeforces B - A and B and Compilation Errors.cpp
-
+// Codeforces 519B - A and B and Compilation Errors.cpp
 #include <iostream>
 #include <cstdio>
 
