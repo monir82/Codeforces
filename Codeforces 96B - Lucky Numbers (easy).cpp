@@ -71,7 +71,7 @@ int main()
 	//WRITE();
 	SF("%I64d", &n);
 
-	SZ = sizeof(ar) / sizeof(ar[0]);
+	SZ = sizeof(ar) / sizeof(ar[0]);   /// SZ = sizeof(ar) / sizeof(LL)
 	for(I = 0; I < SZ; I++)
 	{
 		if(ar[I] >= n)
