@@ -92,15 +92,13 @@ int main()
 		else
 		{
 			ar[m] = 1 + ar[m - 1];
-			ar[m - 1] = 0;
+			ar[m - 1] = 0;		/// Optional
 		}
 	}
 	mx = 0;
 	for(I = 1; I <= n; I++)
-	{
 		mx = MAX(ar[I], mx);
-		//cout << mx << NL;
-	}
+
 	cout << n - mx << NL;
 	return 0;
 }
