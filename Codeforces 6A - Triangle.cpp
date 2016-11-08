@@ -1,4 +1,5 @@
-// Codeforces 6A - Triangle.cpp#include <iostream>
+// Codeforces 6A - Triangle.cpp
+#include <iostream>
 #include <cstdio>
 
 #include <string>
